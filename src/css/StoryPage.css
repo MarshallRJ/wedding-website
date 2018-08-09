@@ -33,12 +33,12 @@
 
 .avatar.anna {
   float: left;
-  background-image: url('../img/Anna.png');
+  background-image: url('../img/Lily.jpeg');
 }
 
 .avatar.nick {
   float: right;
-  background-image: url('../img/Nick.jpg');
+  background-image: url('../img/Rob.jpeg');
 }
 
 @media screen and (orientation: portrait) {

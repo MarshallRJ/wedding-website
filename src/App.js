@@ -20,7 +20,7 @@ class App extends Component {
     super(props);
 
     var now = Date.now();
-    var countdownDate = new Date("Dec 15, 2018 14:00:00").getTime();
+    var countdownDate = new Date("Dec 3, 2018 14:00:00").getTime();
 
     this.state = {
       countdownDistance: countdownDate - now
@@ -56,18 +56,18 @@ class App extends Component {
     var timeRemainingObject = this.getTimeRemaining(this.state.countdownDistance);
 
     return (
-      <Router>
+      <Router basename={'/wedding'}>
         <Route render={({location}) => (
           <div className="content">
             <header className="header">
-              <h1 className="title">Anna and Nick are getting married!</h1>
+              <h1 className="title">Rob and Lily are getting married!</h1>
               <div className="button-section">
                 <NavLink exact to="/" activeClassName="selected">
                   <div className="home button">
                     <div className="button-text">home</div>
                   </div>
                 </NavLink>
-                <NavLink to="/details" activeClassName="selected">
+                {/* <NavLink to="/details" activeClassName="selected">
                   <div className="details button">
                     <div className="button-text">details</div>
                   </div>
@@ -96,7 +96,7 @@ class App extends Component {
                   <div className="registry button">
                     <div className="button-text">registry</div>
                   </div>
-                </NavLink>
+                </NavLink> */}
               </div>
             </header>
             <div className="page-content">

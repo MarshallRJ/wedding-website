@@ -3,12 +3,12 @@ import PropTypes from 'prop-types';
 import './css/HomePage.css';
 
 class HomePage extends Component {
-  render () {
+	render() {
 
-    return (
-      <div className="homepage">
+		return (
+			<div className="homepage">
         <div className="photo-wrap fixed-aspect left">
-          <div className="proposal image" />
+          <div className="bridge image" />
         </div>
         <table className="countdown" align="center">
           <tr>
@@ -30,24 +30,24 @@ class HomePage extends Component {
         <div className="footer-wrap">
           <div className="footer ceremony">
             <p>Ceremony</p>
-            <p>December 2018, 2:00pm</p>
-            <p>St. Patrick's Catholic Church</p>
-            <p>Columbus, OH</p>
+            <p>1st December 2018, 2:00pm</p>
+            <p>Lonehill Village Church</p>
+            <p>Johannesburg, South Africa</p>
           </div>
           <div className="footer reception">
             <p>Reception</p>
-            <p>December 2018, 6:00pm</p>
-            <p>St. Andrew's Catholic Church</p>
-            <p>Upper Arlington, OH</p>
+            <p>1st December 2018, 4:00pm</p>
+            <p>TBA</p>
+            <p>Johannesburg, South Africa</p>
           </div>
         </div>
       </div>
-    );
-  }
+		);
+	}
 }
 
 HomePage.PropTypes = {
-  timeRemainingObject: PropTypes.object
+	timeRemainingObject: PropTypes.object
 };
 
 export default HomePage;
