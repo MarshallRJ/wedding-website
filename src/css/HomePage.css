@@ -1,144 +1,134 @@
 .countdown {
-  padding-top: 7.5%;
-  height: 20%;
-
-  color: rgb(207, 207, 207);
-
-  font-family: "Exodus";
+	padding-top: 7.5%;
+	height: 20%;
+	color: rgb(61, 61, 61);
+	font-family: "RaphLan";
 }
 
 .countdown tr:nth-child(1) {
-  font-size: 2.5em;
+	font-size: 2.5em;
 }
 
 .countdown tr:nth-child(2) {
-  font-family: "Christmas";
-  font-size: 1.5em;
+	font-family: "Forum";
+	font-size: 1.5em;
 }
 
 .countdown td {
-  width: 20%;
+	width: 20%;
 }
 
 .photo-wrap {
-  position: absolute;
-
-  top: 10%;
-
-  height: 24vw;
-  width: 18vw;
+	position: absolute;
+	top: 10%;
+	height: 24vw;
+	width: 18vw;
 }
 
 .photo-wrap img {
-  border-radius: 4px;
-  box-shadow: 0 0 8px 8px black inset;
+	border-radius: 4px;
+	box-shadow: 0 0 8px 8px black inset;
 }
 
 .photo-wrap.right {
-  right: 8%;
+	right: 8%;
 }
 
 .photo-wrap.left {
-  left: 8%;
+	left: 8%;
 }
 
 .photo-wrap .image {
-  height: 100%;
-  width: 100%;
-
-  z-index: 1;
-  box-shadow: 0px 0px 5px 3px black inset;
-  border-radius: 5px;
-
-  background-repeat: no-repeat;
-  background-size: contain;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	box-shadow: 0px 0px 5px 3px black inset;
+	border-radius: 5px;
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 
 .photo-wrap .image.baptism {
-  background-image: url('../img/RobAndLilly.jpg');
+	background-image: url('../img/RobAndLilly.jpg');
 }
 
 .photo-wrap .image.bridge {
-  background-image: url('../img/Bridge.jpeg');
+	background-image: url('../img/Bridge.jpeg');
 }
 
 .footer-wrap {
-  position: absolute;
-
-  bottom: 15%;
-  width: 100%;
-  height: 15%;
+	position: absolute;
+	bottom: 15%;
+	width: 100%;
+	height: 15%;
 }
 
 .footer {
-  position: absolute;
-
-  width: 20%;
-
-  text-align: center;
-  color: rgb(255, 255, 255, 0.75);
-
-  font-family: "Perry";
+	position: absolute;
+	width: 20%;
+	text-align: center;
+	color: rgb(255, 255, 255, 0.75);
+	font-family: "Forum";
 }
 
 .footer.ceremony {
-  left: 30%;
+	left: 30%;
 }
 
 .footer.reception {
-  left: 50%;
+	left: 50%;
 }
 
 .footer.ceremony p:nth-child(1) {
-  font-size: 1em;
-  font-weight: bold;
+	font-size: 1em;
+	font-weight: bold;
 }
 
 .footer.reception p:nth-child(1) {
-  font-size: 1em;
-  font-weight: bold;
+	font-size: 1em;
+	font-weight: bold;
 }
 
 .footer p {
-  margin: 3px;
-  font-size: 0.75em;
+	margin: 3px;
+	font-size: 0.75em;
 }
 
 @media screen and (orientation: portrait) {
-  .photo-wrap {
-    top: 37.5%;
-    height: 33.333vw;
-    width: 25vw;
-  }
+	.photo-wrap {
+		top: 37.5%;
+		height: 33.333vw;
+		width: 25vw;
+	}
 
-  .photo-wrap .left {
-    left: 15%;
-  }
+	.photo-wrap .left {
+		left: 15%;
+	}
 
-  .photo-wrap .right {
-    right: 15%;
-  }
+	.photo-wrap .right {
+		right: 15%;
+	}
 
-  .footer {
-    width: 100%;
-    top: 50%;
-  }
+	.footer {
+		width: 100%;
+		top: 50%;
+	}
 
-  .footer.reception {
-    display: none;
-  }
+	.footer.reception {
+		display: none;
+	}
 
-  .footer.ceremony {
-    left: 0;
-  }
+	.footer.ceremony {
+		left: 0;
+	}
 }
 
 @media screen and (max-width: 1024px) {
-  .countdown tr:nth-child(1) {
-    font-size: 3em;
-  }
-  
-  .countdown tr:nth-child(2) {
-    font-size: 1.5em;
-  }
+	.countdown tr:nth-child(1) {
+		font-size: 3em;
+	}
+
+	.countdown tr:nth-child(2) {
+		font-size: 1.5em;
+	}
 }
