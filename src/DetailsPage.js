@@ -19,16 +19,15 @@ class DetailsPage extends Component {
             <p>23 Crestwood Drive, Lonehill</p>
             <p>Begins promptly at 2:00pm</p>
             <p>December 1th, 2018</p>
-            <p>Dress Code: Smart</p>
+            <p>Dress Code: Smartish</p>
           </div>
           <div className="reception-content">
             <div className="centered-header">Reception</div>
-            <p>St. Andrew Catholic Church</p>
-            <p>1899 McCoy Road</p>
-            <p><i>Please enter at McCoy Road entrance. Signs will direct guests to the Parish Hall.</i></p>
-            <p>6:00pm to 12:00am Midnight</p>
-            <p>December 15th, 2018</p>
-            <p>Black Tie Optional</p>
+            <p>Marshall's Residence</p>
+            <p>97 Lachlan Road, Glenferness</p>
+            <p><i>Please arange car pooling by leaving cars at the church.</i></p>
+            <p>3:00pm to 12:00am Midnight</p>
+            <p>December 1th, 2018</p>
           </div>
           <div className="centered-content">
             <div className="centered-header">Directions</div>
