@@ -67,11 +67,12 @@ class App extends Component {
                     <div className="button-text">home</div>
                   </div>
                 </NavLink>
-                {/* <NavLink to="/details" activeClassName="selected">
+                 <NavLink to="/details" activeClassName="selected">
                   <div className="details button">
                     <div className="button-text">details</div>
                   </div>
                 </NavLink>
+                { /*
                 <NavLink to="/story" activeClassName="selected">
                   <div className="details button">
                     <div className="button-text">our story</div>

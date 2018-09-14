@@ -37,7 +37,7 @@ class HomePage extends Component {
           <div className="footer reception">
             <p>Reception</p>
             <p>1st December 2018, 4:00pm</p>
-            <p>TBA</p>
+            <p>97 Lachlan Road, Glenferness, Midrand</p>
             <p>Johannesburg, South Africa</p>
           </div>
         </div>

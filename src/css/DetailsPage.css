@@ -2,15 +2,18 @@
   height: 100%;
   width: 100%;
 
-  font-family: "Christmas";
+  font-family: "RaphLan";
+  color: rgb(61, 61, 61);
 }
 
 .centered-header {
   font-size: 3em;
-  font-family: "German";
+  font-family: "RaphLan";
+  color: rgba(90, 14, 16, 0.75);
 }
 
 .details-page-content p {
-  font-family: "Foglihten";
+  font-family: "Forum";
+    color: rgb(61, 61, 61);
 }
 
