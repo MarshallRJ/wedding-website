@@ -109,9 +109,9 @@ body {
 	padding: 0;
 	overflow: visible;
 	background: url('../img/BG.png');
-	background-size: auto;
+	background-size: cover;
 	background-position: center;
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-repeat: no-repeat;
 }
 
