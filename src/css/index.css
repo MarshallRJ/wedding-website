@@ -108,9 +108,9 @@ body {
 	margin: 0;
 	padding: 0;
 	overflow: visible;
-	background: url('../img/BG.png');
+	background: url('../img/Invite\ BG\ darker.jpg');
 	background-size: cover;
-	background-position: center;
+	background-position: center center;
 	background-attachment: scroll;
 	background-repeat: no-repeat;
 }

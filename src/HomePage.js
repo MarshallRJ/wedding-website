@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import { Scrollbars } from 'react-custom-scrollbars';
 import './css/HomePage.css';
 
 class HomePage extends Component {
@@ -11,6 +12,7 @@ class HomePage extends Component {
           <div className="bridge image" />
         </div>
         <table className="countdown" align="center">
+          <tbody>
           <tr>
             <td>{this.props.timeRemainingObject.days}</td>
             <td>{this.props.timeRemainingObject.hours}</td>
@@ -23,6 +25,7 @@ class HomePage extends Component {
             <td>minutes</td>
             <td>seconds</td>
           </tr>
+          </tbody>
         </table>
         <div className="photo-wrap fixed-aspect right">
           <div className="baptism image" />
@@ -46,7 +49,7 @@ class HomePage extends Component {
 	}
 }
 
-HomePage.PropTypes = {
+HomePage.propTypes = {
 	timeRemainingObject: PropTypes.object
 };
 
