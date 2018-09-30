@@ -12,6 +12,7 @@ import PrayersPage from './PrayersPage';
 import PhotosPage from './PhotosPage';
 import RegistryPage from './RegistryPage';
 import ComingSoonPage from './ComingSoonPage';
+import RSVPPage from './RSVPPage';
 
 import './css/App.css';
 
@@ -72,6 +73,11 @@ class App extends Component {
                     <div className="button-text">Details</div>
                   </div>
                 </NavLink>
+                 <NavLink to="/rsvp" activeClassName="selected">
+                  <div className="details button">
+                    <div className="button-text">RSVP</div>
+                  </div>
+                </NavLink>
                 { /*
                 <NavLink to="/story" activeClassName="selected">
                   <div className="details button">
@@ -114,6 +120,7 @@ class App extends Component {
                   <Route path='/prayers' component={ComingSoonPage}/>
                   <Route path='/photos' component={ComingSoonPage}/>
                   <Route path='/registry' component={ComingSoonPage}/>
+                  <Route path='/rsvp' component={RSVPPage}/>
                 </Switch>
               </CSSTransition>
             </div>
