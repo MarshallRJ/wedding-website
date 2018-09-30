@@ -29,13 +29,11 @@ export default class RSVPPage extends Component {
 		const { name } = this.state;
 		return (
 			<div>
-        <form onSubmit={this.handleSubmit}>
         <div>
       <input type="text" value={name} onChange={this.onChange} placeholder='Please state your name'/>
         </div>
        <button onClick={()=> this.onButtonClick(true)} className="centered-header" >Yes</button>
        <button onClick={()=> this.onButtonClick(false)} className="centered-header" >No</button>
-      </form>
       </div>
 		);
 	}
