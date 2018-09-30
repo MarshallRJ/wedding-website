@@ -30,13 +30,13 @@ class HomePage extends Component {
         <div className="footer-wrap">
           <div className="footer ceremony">
             <p>Ceremony</p>
-            <p>1st December 2018, 2:00pm</p>
-            <p>Lonehill Village Church</p>
+            <p>1st December 2018, 3:30pm for 4:00pm</p>
+            <p>Village Church Lonehill</p>
             <p>Johannesburg, South Africa</p>
           </div>
           <div className="footer reception">
             <p>Reception</p>
-            <p>1st December 2018, 4:00pm</p>
+            <p>1st December 2018, 5:00pm</p>
             <p>97 Lachlan Road, Glenferness, Midrand</p>
             <p>Johannesburg, South Africa</p>
           </div>

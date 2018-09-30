@@ -21,7 +21,7 @@
 .photo-wrap {
 	position: absolute;
 	top: 10%;
-	height: 24vw;
+	height: 12vw;
 	width: 18vw;
 }
 
@@ -49,11 +49,11 @@
 }
 
 .photo-wrap .image.baptism {
-	background-image: url('../img/RobAndLilly.jpg');
+	background-image: url('../img/lilyAndRobLooking.jpg');
 }
 
 .photo-wrap .image.bridge {
-	background-image: url('../img/Bridge.jpeg');
+	background-image: url('../img/lilyRobBlackAndWhite.jpg');
 }
 
 .footer-wrap {

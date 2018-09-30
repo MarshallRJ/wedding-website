@@ -15,19 +15,19 @@ class DetailsPage extends Component {
             <div className="centered-header">Ceremony</div>
             <p>The ceremony uniting</p>
             <p>Lily Siachitema &amp; Robert-John Marshall</p>
-            <p>Lonehill Village Church</p>
+            <p>Village Church Lonehill</p>
             <p>23 Crestwood Drive, Lonehill</p>
-            <p>Begins promptly at 2:00pm</p>
-            <p>December 1th, 2018</p>
-            <p>Dress Code: Smartish</p>
+            <p>3:30pm for 4:00pm</p>
+            <p>December 1st, 2018</p>
+            <p>Dress Code: Smart Casual</p>
           </div>
           <div className="reception-content">
             <div className="centered-header">Reception</div>
             <p>Marshall's Residence</p>
-            <p>97 Lachlan Road, Glenferness</p>
-            <p><i>Please arange car pooling by leaving cars at the church.</i></p>
-            <p>3:00pm to 12:00am Midnight</p>
-            <p>December 1th, 2018</p>
+            <p>199 Lachlan Road, Glenferness, Midrand</p>
+            <p><i>Please attempt to arrange car pooling by leaving cars at the church.</i></p>
+            <p>5:00pm onwards</p>
+            <p>December 1st, 2018</p>
           </div>
           <div className="centered-content">
             <div className="centered-header">Directions</div>

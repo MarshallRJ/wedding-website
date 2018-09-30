@@ -64,12 +64,12 @@ class App extends Component {
               <div className="button-section">
                 <NavLink exact to="/" activeClassName="selected">
                   <div className="home button">
-                    <div className="button-text">home</div>
+                    <div className="button-text">Home</div>
                   </div>
                 </NavLink>
                  <NavLink to="/details" activeClassName="selected">
                   <div className="details button">
-                    <div className="button-text">details</div>
+                    <div className="button-text">Details</div>
                   </div>
                 </NavLink>
                 { /*
